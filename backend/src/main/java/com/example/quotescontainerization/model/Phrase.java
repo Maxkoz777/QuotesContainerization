@@ -1,6 +1,6 @@
 package com.example.quotescontainerization.model;
 
-import com.example.quotescontainerization.model.phraseTypes.PhraseType;
+import com.example.quotescontainerization.model.types.PhraseType;
 import lombok.*;
 
 import javax.persistence.*;
@@ -9,6 +9,7 @@ import javax.persistence.*;
 @Setter
 @ToString
 @RequiredArgsConstructor
+@Builder
 @Entity
 public class Phrase {
 
