@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e94b7be-cf39-4727-b36b-b8f164520162" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/quotescontainerization/QuotesContainerizationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/quotescontainerization/QuotesContainerizationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/quotescontainerization/QuotesContainerizationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/example/quotescontainerization/QuotesContainerizationApplicationTests.java" afterDir="false" />
+    <list default="true" id="2e94b7be-cf39-4727-b36b-b8f164520162" name="Default Changelist" comment="init back front">
+      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/assets/images/1611225732_institution-logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/assets/images/Smile-iPhone-Wallpaper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/assets/images/background-smiles-smile-icon-seamless-pattern-white-black-abstract-geometric-shape-texture-design-template-wallpaper-156624576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/assets/images/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/components/MemeResult.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/components/QuoteResult.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/layouts/AppFooter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/layouts/AppHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/layouts/GeneratorLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/layouts/MainContainer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/quote-gen-ui/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/quote-gen-ui/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/quote-gen-ui/src/components/HelloWorld.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +62,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Evgeny\WebstormProjects\React\QuotesContainerization\frontend\quote-gen-ui\src\assets\images" />
+      <recent name="C:\Users\Evgeny\WebstormProjects\React\QuotesContainerization\backend" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,8 +76,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639237744961</updated>
-      <workItem from="1639237746246" duration="301000" />
+      <workItem from="1639237746246" duration="5968000" />
     </task>
+    <task id="LOCAL-00001" summary="init back front">
+      <created>1639238077457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639238077457</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init back front">
+      <created>1639238099285</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639238099285</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -57,5 +108,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init back front" />
+    <option name="LAST_COMMIT_MESSAGE" value="init back front" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639239087104">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1639239087104" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1639238106253">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1639238106253" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1639238193047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1639238193047" />
   </component>
 </project>
