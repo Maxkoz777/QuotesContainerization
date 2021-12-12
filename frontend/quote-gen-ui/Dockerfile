@@ -1,4 +1,4 @@
-FROM node:12.18.1-alpine AS build
+FROM node:16.13.1-alpine AS build
 # install simple http server for serving static content
 RUN npm install -g http-server
 
@@ -10,6 +10,8 @@ COPY package*.json ./
 
 # install project dependencies
 RUN npm install
+RUN npm uninstall webpack
+RUN npm install webpack@^4.0.0 --save-dev
 
 # copy project files and folders to the current working directory (i.e. 'app' folder)
 COPY . .
