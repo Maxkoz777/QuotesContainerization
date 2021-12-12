@@ -9,6 +9,7 @@ import javax.persistence.*;
 @Setter
 @ToString
 @RequiredArgsConstructor
+@AllArgsConstructor
 @Builder
 @Entity
 public class Phrase {
@@ -22,6 +23,7 @@ public class Phrase {
     private String text;
 
     @Column(nullable = false)
+    @Enumerated(EnumType.STRING)
     private PhraseType type;
 
 }
