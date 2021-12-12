@@ -19,21 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e94b7be-cf39-4727-b36b-b8f164520162" name="Default Changelist" comment="init back front">
-      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/assets/images/1611225732_institution-logo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/assets/images/Smile-iPhone-Wallpaper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/assets/images/background-smiles-smile-icon-seamless-pattern-white-black-abstract-geometric-shape-texture-design-template-wallpaper-156624576.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/assets/images/unnamed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/components/MemeResult.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/components/QuoteResult.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/layouts/AppFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/layouts/AppHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/layouts/GeneratorLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/layouts/MainContainer.vue" afterDir="false" />
+    <list default="true" id="2e94b7be-cf39-4727-b36b-b8f164520162" name="Default Changelist" comment="add markup">
+      <change afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/http-common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/quote-gen-ui/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/quote-gen-ui/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/quote-gen-ui/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/quote-gen-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/quote-gen-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/quote-gen-ui/src/components/MemeResult.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/components/MemeResult.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/quote-gen-ui/src/components/QuoteResult.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/quote-gen-ui/src/components/QuoteResult.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +37,7 @@
       <list>
         <option value="package.json" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -59,6 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Quiz_web_engine" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -76,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639237744961</updated>
-      <workItem from="1639237746246" duration="5968000" />
+      <workItem from="1639237746246" duration="13523000" />
     </task>
     <task id="LOCAL-00001" summary="init back front">
       <created>1639238077457</created>
@@ -92,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639238099285</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add markup">
+      <created>1639243871954</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639243871954</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,20 +112,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init back front" />
-    <option name="LAST_COMMIT_MESSAGE" value="init back front" />
+    <MESSAGE value="add markup" />
+    <option name="LAST_COMMIT_MESSAGE" value="add markup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639239087104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1639239087104" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1639238106253">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1639302875054">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639302875054" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1639246433943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1639238106253" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1639238193047">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1639246433943" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1639298568835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1639298568835" />
+    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1639302717073">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639302717073" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1639238193047" />
   </component>
 </project>
