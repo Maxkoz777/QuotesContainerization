@@ -1,28 +1,29 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <main-container/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+
+import MainContainer from "@/layouts/MainContainer";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MainContainer
+
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: Lato, sans-serif;
+}
+body{
+  padding: 0;
+  margin:0;
 }
 </style>
