@@ -30,31 +30,28 @@ public class InitialDataGenerator implements CommandLineRunner {
                     // Jokes
 
                     Phrase.builder()
-                            .text("— Милый, смотри, какое у меня отличное тело!\n" +
-                                    "— Бл@, Петрович, где ты его взял?! Это что, мертвый бомж?!")
+                            .text("Singing in the shower is fun until you get soap in your mouth. Then it's a soap opera.")
                             .type(PhraseType.JOKE)
                             .build(),
-                    Phrase.builder().text("- Почему ты закрылся от меня? Я же слышу, как тебе одиноко, как ты стонешь внутри.\n" +
-                                        "- Бл@, Петрович, отойди от двери, дай посрать спокойно!")
+                    Phrase.builder().text("I only know 25 letters of the alphabet. I don't know y.")
                             .type(PhraseType.JOKE)
                             .build(),
-                    Phrase.builder().text("- А Саша выйдет?\n" +
-                            "- Нет, у него пожизненное.")
+                    Phrase.builder().text("Singing in the shower is fun until you get soap in your mouth. Then it's a soap opera.")
                             .type(PhraseType.JOKE)
                             .build(),
 
                     // Quotes
 
                     Phrase.builder()
-                            .text("Если волк молчит то лучше его не перебивай.")
+                            .text("It is better to remain silent at the risk of being thought a fool, than to talk and remove all doubt of it.")
                             .type(PhraseType.QUOTE)
                             .build(),
                     Phrase.builder()
-                            .text("В жизни полно лжи и грязи, она не так красива. Даже твой лучший друг может не поделиться пивом…")
+                            .text("The fool doth think he is wise, but the wise man knows himself to be a fool.")
                             .type(PhraseType.QUOTE)
                             .build(),
                     Phrase.builder()
-                            .text("Если в дверь не постучаться, ее никогда не откроют.")
+                            .text("Knowing yourself is the beginning of all wisdom.")
                             .type(PhraseType.QUOTE)
                             .build()
 
