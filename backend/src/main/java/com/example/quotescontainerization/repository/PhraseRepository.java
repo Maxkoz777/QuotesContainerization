@@ -9,9 +9,9 @@ import java.util.Optional;
 public interface PhraseRepository extends JpaRepository<Phrase, Long> {
 
     @Query(value = "SELECT * from phrase p " +
-                    "where p.type = 'JOKE' " +
-                    "order by RANDOM()" +
-                    "limit 1",
+            "where p.type = 'JOKE' " +
+            "order by RANDOM()" +
+            "limit 1",
             nativeQuery = true)
     Optional<Phrase> getRandomJoke();
 
